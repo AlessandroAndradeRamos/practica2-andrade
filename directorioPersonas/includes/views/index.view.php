@@ -1,6 +1,6 @@
 <?php require_once(VIEW_PATH.'header.inc.php'); ?>
 
-	
+
 	<link href="<?php echo $url;?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<script src="<?php echo $url;?>assets/js/jquery.js"></script>
 	<script src="<?php echo $url;?>assets/js/bootstrap.min.js"></script>
@@ -10,7 +10,7 @@
 	<div class="container">
       <div class="row">
       	<aside ng-app="app" class="col-md-9 col-xs-11 p-l-2 p-t-2 main">
-      		
+
 			<div class="row">
 				<div class="col-md-12">
 					<H3><i class="fa fa-user" aria-hidden="true"></i> Listado de personas </H3>
@@ -70,6 +70,10 @@
 		                                <label>Dirección</label>
 		                                <input ng-model="persona.direccion" class="form-control" required>
 		                            </div>
+																<div class="col-md-7">
+		                                <label>Tedefono</label>
+		                                <input ng-model="persona.tedefono" class="form-control" required>
+		                            </div>
 		                        </div>
 		                    </div>
 		                    <div class="modal-footer">
@@ -86,7 +90,7 @@
 		        </div>
 				<!-- Fin de la modal -->
 			</div>
-			
+
 		</aside>
 	  </div>
 	</div>

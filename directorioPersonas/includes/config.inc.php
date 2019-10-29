@@ -1,6 +1,6 @@
 <?php
 //Definición de variable global
-$url="https://practica2-andrade.paiza-user.cloud/~ubuntu/practica2-andrade/directorioPersonas/";
+$url="http://localhost/practica2-andrade/directorioPersonas/";
 
 //Definir el código de caracteres
 header('Content-Type: text/html; charset=utf-8');
@@ -20,8 +20,8 @@ setlocale(LC_MONETARY, 'en_US');
 ////////////////////////////////////////////////////////////////////////////////
 defined('DATABASE_HOST') ? NULL : define('DATABASE_HOST', 'localhost');
 defined('DATABASE_NAME') ? NULL : define('DATABASE_NAME', 'myInfo');
-defined('DATABASE_USER') ? NULL : define('DATABASE_USER', 'root');
-defined('DATABASE_PASSWORD') ? NULL : define('DATABASE_PASSWORD', '');
+defined('DATABASE_USER') ? NULL : define('DATABASE_USER', 'sandy');
+defined('DATABASE_PASSWORD') ? NULL : define('DATABASE_PASSWORD', 'fuckingpassword');
 
 ////////////////////////////////////////////////////////////////////////////////
 // Define absolute application paths
